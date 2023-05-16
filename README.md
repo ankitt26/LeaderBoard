@@ -44,7 +44,6 @@ After you're finished please remove all the comments and instructions!
   - [🛠 Built With ](#-built-with-)
     - [Tech Stack ](#tech-stack-)
     - [Key Features ](#key-features-)
-  - [🚀 Live Demo ](#-live-demo-)
   - [💻 Getting Started ](#-getting-started-)
     - [Prerequisites](#prerequisites)
     - [Setup](#setup)
@@ -87,14 +86,6 @@ After you're finished please remove all the comments and instructions!
 ### Key Features <a name="key-features"></a>
 
 - Webpack used
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- LIVE DEMO -->
-
-## 🚀 Live Demo <a name="live-demo"></a>
-
->  coming soon...
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
