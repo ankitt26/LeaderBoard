@@ -6,6 +6,36 @@
     <title>Wbpack Exercise</title>
   </head>
   <body>
-    <h1>Hello webpack!</h1>
+    <header><h1 class="h1">Leaderboard</h1></header>
+    <main class="main">
+      <section class="leaderboard">
+        <h2 class="score-h">
+          Recent scores <button class="refresh">refresh</button>
+        </h2>
+        <div class="scoreCard">
+          <h3 class="users">Name : 100</h3>
+          <h3 class="users">Name : 80</h3>
+          <h3 class="users">Name : 90</h3>
+          <h3 class="users">Name : 70</h3>
+          <h3 class="users">Name : 59</h3>
+          <h3 class="users">Name : 60</h3>
+        </div>
+      </section>
+
+      <section class="addScore">
+        <h2 class="score-h">Add your Score</h2>
+        <form class="form" action="">
+          <input type="text" id="user_name" placeholder="Your name" required />
+          <input
+            type="number"
+            id="user_score"
+            max="100"
+            placeholder="Your score"
+            required
+          />
+          <button class="submit">Submit</button>
+        </form>
+      </section>
+    </main>
   </body>
 </html>
