@@ -1,0 +1,93 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@600&family=Ysabeau:wght@300&display=swap");
+
+body {
+  font-family: "Ysabeau", sans-serif;
+}
+
+header {
+  padding: 5px 30px;
+}
+
+h1 {
+  font-size: 55px;
+}
+
+/* main */
+
+main {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: flex-start;
+}
+
+.score-h {
+  font-size: 35px;
+  margin: 15px;
+}
+
+/* leaderbosrd section */
+
+.leaderboard {
+  font-family: "Nunito", sans-serif;
+  font-size: 20px;
+  width: 40%;
+}
+
+.refresh {
+  position: relative;
+  bottom: 3px;
+  left: 20px;
+  color: #fff;
+  background-color: rgb(101, 133, 170);
+  border: none;
+  border-radius: 4px;
+}
+
+.scoreCard {
+  border: 3px solid black;
+  padding: 10px;
+  color: #5a5353;
+}
+
+.users {
+  margin: 10px;
+}
+
+/* add score section */
+
+.addScore {
+  width: 40%;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  height: 135px;
+  margin-left: 20px;
+}
+
+input {
+  width: 192px;
+  height: 22px;
+  padding-left: 20px;
+}
+
+.submit {
+  width: 80px;
+  height: 25px;
+  margin-left: 137px;
+  color: #fff;
+  background-color: rgb(13, 109, 219);
+  border: none;
+  border-radius: 4px;
+}
+
+button:hover {
+  background-color: #2ee59d;
+  box-shadow: 0 15px 20px rgba(46, 229, 157, 0.4);
+  color: #fff;
+  transform: translateY(-4px);
+  cursor: pointer;
+}
