@@ -1,2 +1,2 @@
-// add soon 
+// add soon
 import './style.css';
