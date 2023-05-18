@@ -105,22 +105,20 @@ To get a local copy up and running, follow these steps.
 
 Clone this repository to your desired folder:
 
-Run this command
+*Run this command:*
 
 ````sh
   cd my-project
   git clone git@github.com:ankitt26/LeaderBoard.git
-
---->
+````
 
 ### Install
 
 Install this project with:
 
-<!--
-Example command:
 
-```sh
+*Example command:*
+````sh
   cd my-project
   npm install
 ````
@@ -131,6 +129,10 @@ Example command:
 
 To run the project, execute the following command:
 
+````sh
+cd my-project
+npm run start
+````
 Open index.html using live server extension
 
 ### Run tests
