@@ -49,6 +49,9 @@ After you're finished please remove all the comments and instructions!
     - [Setup](#setup)
     - [Install](#install)
     - [Usage](#usage)
+  - [API Key Generation](#api-key-generation)
+  - [Endpoints](#endpoints)
+    - [`/games/`](#games)
     - [Run tests](#run-tests)
     - [Deployment](#deployment)
   - [👥 Authors ](#-authors-)
@@ -133,7 +136,103 @@ To run the project, execute the following command:
 cd my-project
 npm run start
 ````
-Open index.html using live server extension
+
+## API Key Generation
+
+To make requests to the API use this link 🔗
+````sh
+`https://us-central1-js-capstone-backend.cloudfunctions.net/api/games`
+````
+Follow the steps below to generate the key:
+
+
+
+## Endpoints
+
+This project includes the following endpoints:
+
+### `/games/`
+
+**Allowed actions:**
+
+- POST: Create a new game
+
+**Mandatory parameters for POST action:**
+
+- `name`: Name of the game
+
+**Parameters example for POST action (sent in the body of the request in JSON format):**
+
+```json
+{
+  "name": "Example Game"
+}
+
+````
+
+**Return value: unique identifier for the game:**
+````sh 
+{
+	"result": "Game with ID: Zl4d7IVkemOTTVg2fUdz added."
+}
+````
+
+**/games/:id/scores/**
+
+URL parameters:
+
+- id: unique identifier of the game
+
+URL example: `/games/Zl4d7IVkemOTTVg2fUdz/scores/`
+
+Allowed actions:
+
+- POST to create a new score for the given game
+- GET to get a list of scores for the given game
+
+Mandatory parameters for POST action:
+
+- user: name of the user
+- score: points (number)
+
+Parameters example for POST action (sent in the body of the request in JSON format):
+````sh
+{ 
+	"user": "John Doe",
+	"score": 42
+}
+````
+
+Return value for POST action:
+````sh
+{
+	"result": "Leaderboard score created correctly."
+}
+````
+
+Parameters for GET action: *none*
+
+Return value for GET action:
+````sh
+{
+    "result": [
+        {
+            "user": "John Doe",
+            "score": 42
+        },
+        {
+            "user": "Peter Parker",
+            "score": 35
+        },
+        {
+            "user": "Wonder Woman",
+            "score": 50
+        }
+    ]
+}
+````
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 
 ### Run tests
 
