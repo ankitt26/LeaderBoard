@@ -4,13 +4,19 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Wbpack Exercise</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
   </head>
   <body>
-    <header><h1 class="h1">Leaderboard</h1></header>
+    <header>
+      <h1 class="h1"><i class="fa-solid fa-trophy"></i> Leaderboard</h1>
+    </header>
     <main class="main">
       <section class="leaderboard">
         <h2 class="score-h">
-          Recent scores <button class="refresh" type="submit">refresh</button>
+          🎉Recent scores <button class="refresh" type="submit">refresh</button>
         </h2>
         <div class="scoreCard">
           <!-- scorelist will be created dynamically -->
@@ -18,7 +24,7 @@
       </section>
 
       <section class="addScore">
-        <h2 class="score-h">Add your Score</h2>
+        <h2 class="score-h">🎯Add your Score</h2>
         <form class="form">
           <input type="text" id="user_name" placeholder="Your name" required />
           <input
