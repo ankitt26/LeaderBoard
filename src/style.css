@@ -2,6 +2,7 @@
 
 body {
   font-family: "Ysabeau", sans-serif;
+  background-size: 100%;
 }
 
 header {
@@ -10,6 +11,8 @@ header {
 
 h1 {
   font-size: 55px;
+  color: #5a5353;
+  text-shadow: 2px 2px #777373;
 }
 
 /* main */
@@ -24,6 +27,8 @@ main {
 .score-h {
   font-size: 35px;
   margin: 15px;
+  color: #ff6969;
+  text-shadow: 1px 1px #fff;
 }
 
 /* leaderbosrd section */
@@ -39,19 +44,25 @@ main {
   bottom: 3px;
   left: 20px;
   color: #fff;
-  background-color: rgb(101, 133, 170);
+  background-color: #299934;
   border: none;
   border-radius: 4px;
 }
 
 .scoreCard {
-  border: 3px solid black;
   padding: 10px;
-  color: #5a5353;
+  border: 4px inset #277474;
+  border-radius: 20px;
+  opacity: 0.2;
+  background-color: #49083e;
 }
 
 .users {
   margin: 10px;
+  color: black;
+  background-color: #90c5dc;
+  border-radius: 10px;
+  padding-left: 10px;
 }
 
 /* add score section */
@@ -65,19 +76,23 @@ form {
   flex-direction: column;
   justify-content: space-evenly;
   height: 135px;
-  margin-left: 20px;
+  margin-left: 29px;
 }
 
 input {
-  width: 192px;
-  height: 22px;
+  width: 228px;
+  height: 26px;
   padding-left: 20px;
+  border: 2px solid #277474;
+  border-radius: 5px;
+  background-color: #c4eeff;
+  opacity: 0.5;
 }
 
 .submit {
   width: 80px;
   height: 25px;
-  margin-left: 137px;
+  margin-left: 171px;
   color: #fff;
   background-color: rgb(13, 109, 219);
   border: none;
@@ -90,4 +105,9 @@ button:hover {
   color: #fff;
   transform: translateY(-4px);
   cursor: pointer;
+}
+
+.fa-trophy {
+  color: #ffd981;
+  text-shadow: 1px 0 #fff;
 }

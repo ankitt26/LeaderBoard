@@ -5,7 +5,7 @@ const scoreCard = document.querySelector('.scoreCard');
 const display = (scoreList) => {
   scoreCard.innerHTML = '';
   scoreList.forEach((value) => {
-    scoreCard.innerHTML += `<h3 class="users">${value.user} : ${value.score}</h3>`;
+    scoreCard.innerHTML += `<h3 class="users"> <i class="fa-solid fa-medal"></i>  &nbsp ${value.user} : ${value.score}</h3>`;
   });
 };
 
