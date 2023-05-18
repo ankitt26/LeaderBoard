@@ -115,7 +115,7 @@ eval("\n\n/* istanbul ignore next  */\nfunction styleTagTransform(css, styleElem
   \**********************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _style_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./style.css */ \"./src/style.css\");\n// add soon\n\n\n//# sourceURL=webpack://webpack_setup/./src/index.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _style_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./style.css */ \"./src/style.css\");\n// add soon\n\n\nconst setgame = async ()=>{\n  await fetch('https://us-central1-js-capstone-backend.cloudfunctions.net/api/')\n    .then(response=>response.json())\n    .then(json=> console.log(json))\n}\n\nsetgame()\n\n//# sourceURL=webpack://webpack_setup/./src/index.js?");
 
 /***/ })
 
